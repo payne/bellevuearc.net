@@ -1,0 +1,14 @@
+{
+  "name": "bellevuearc-site",
+  "version": "1.0.0",
+  "description": "Bellevue ARC website built with 11ty",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "eleventy --serve",
+    "debug": "DEBUG=Eleventy* eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

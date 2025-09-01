@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if title %}{{ title }} | {% endif %}Bellevue ARC</title>
+    <meta name="description" content="{{ description or 'Bellevue ARC - Supporting individuals with intellectual and developmental disabilities' }}">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><a href="/">Bellevue ARC</a></h1>
+                    <p class="tagline">Building Independence, Creating Opportunities</p>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+                        <li><a href="/about/" {% if '/about/' in page.url %}class="active"{% endif %}>About</a></li>
+                        <li><a href="/programs/" {% if '/programs/' in page.url %}class="active"{% endif %}>Programs</a></li>
+                        <li><a href="/services/" {% if '/services/' in page.url %}class="active"{% endif %}>Services</a></li>
+                        <li><a href="/resources/" {% if '/resources/' in page.url %}class="active"{% endif %}>Resources</a></li>
+                        <li><a href="/events/" {% if '/events/' in page.url %}class="active"{% endif %}>Events</a></li>
+                        <li><a href="/contact/" {% if '/contact/' in page.url %}class="active"{% endif %}>Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bellevue ARC</h3>
+                    <p>Supporting individuals with intellectual and developmental disabilities to live fulfilling, independent lives in our community.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/programs/">Programs</a></li>
+                        <li><a href="/services/">Services</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>123 Main Street<br>
+                    Bellevue, WA 98004<br>
+                    Phone: (425) 555-0123<br>
+                    Email: info@bellevuearc.org</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bellevue ARC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
