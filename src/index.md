@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Home
+description: Bellevue ARC - Bellevue Amateur Radio Club
+---
+
+# FREE HAM RADIO CLASS
+
+[Bellevue Amateur Radio Club (BARC)](http://bellevuearc.org) will hold a Technician class (entry level) amateur radio license course over three Saturday's in January (10th, 17th & 24th). The class will run from 8:00am to 4:00pm each Saturday.  The class will be held at Midlands Hospital, located south of 84th & Hwy 370.  We will NOT break for lunch.  You are welcome to bring drinks, snacks and/or a meal to eat in the classroom. 
+
+Please tell your friends, family & co-workers about the class.
+
+Class seating is limited, advance registration is required. 
+
+To register for the class please send an email to Dennis Mitchell (kc0ykn@cox.net) with the following information:
+
+```
+Student’s name (First & Last):
+Email address:
+Cell phone number:
+Home city:
+Where did you hear about the class?:
+```
+
+We will meet in the Ogram Suite meeting room.  Enter the hospital through the main entrance on the west side of the building and go down the very long hallway to the left of the registration desk.  At the end of the hallway, turn right.  The Ogram suite is three doors down on the right.  There will be signs posted to help you find the classroom.
+
+There is no fee to attend the class.  The textbook we’re using is the [ARRL Ham Radio License Manual (5th Edition)](https://www.amazon.com/ARRL-Ham-Radio-License-Manual/dp/1625951558).  We recommend each student have a copy of the license manual, but it's not required to attend the class.  I suggest you get the book in advance of the class so you can pre-read the material before class. 
+
+The test questions (and answers) for Amateur Radio license exams are public The Ham Radio License Manual includes a copy of the questions and answers.  You can also take realistic sample tests (for FREE!) at [ARRLexamReview.appspot.com](http://arrlexamreview.appspot.com) or [HamStudy.org](https://HAMStudy.org).  The online sample tests use questions from the official test question pool and are an excellent way to prepare for the formal exam.  I strongly recommend you register for a free account on the site.  Sample tests are an excellent addition to your independent study.
+
+If you’re interested in learning more about Amateur Radio before the class the [American Radio Relay League (ARRL) web site (http://www.arrl.org)](http://www.ARRL.org) is a good place to look around.  You’re also welcome to attend the next Bellevue Amateur Radio Club meeting.  Meetings are held the third Thursday of each month (except December) at 7:30pm.  Directions are on our web site [BellevueARC.org](http://bellevuearc.org). 
+
+In preparation for the class I recommend you watch [“Discovering Amateur Radio” on YouTube](https://www.youtube.com/watch?v=ivUMIADFSDw).  It’s a 24 minute introduction to Amateur Radio.  The YouTube video concludes with an 8 minute slide show of ways radio is used in the world around us.
+
+Another great resource is an extensive series of videos created by Dave Casler (KE0OG) as a companion to the ARRL license manual.  You can find them on [YouTube at: 
+https://www.youtube.com/playlist?list=PLuapIzKwhZN_30dcgsDbGU3J7C8BAYJcG](https://www.youtube.com/playlist?list=PLuapIzKwhZN_30dcgsDbGU3J7C8BAYJcG)
+
+
+Please let me know if you have any questions.  I’m sure there are topics I’ve forgotten to cover.
+
+
+```    
+Dennis Mitchell – KC0YKN
+Bellevue Amateur Radio Club
+402-690-2587
+```    
+
