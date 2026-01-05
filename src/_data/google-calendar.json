@@ -1,6 +1,6 @@
 {
-  "calendarId": "YOUR_CALENDAR_ID@group.calendar.google.com",
-  "apiKey": "YOUR_GOOGLE_API_KEY",
-  "timeZone": "America/New_York",
+  "calendarId": "40479b51da05e148a499cb6d53d259b4d4896f878a5600ac4131d822b39705dd@group.calendar.google.com",
+  "apiKey": "AIzaSyCA8CL25LCTuAE442nLsaq4uXBDsK1tP5I",
+  "timeZone": "America/Chicago",
   "maxResults": 50
 }
