@@ -1,0 +1,39 @@
+{
+  "president": {
+    "name": "Robert Anderson",
+    "callsign": "N3ABC",
+    "job": "President"
+  },
+  "vicePresident": {
+    "name": "Maria Garcia",
+    "callsign": "KD4XYZ",
+    "job": "Vice President"
+  },
+  "treasurer": {
+    "name": "Linda Thompson",
+    "callsign": "K6GHI",
+    "job": "Treasurer"
+  },
+  "secretary": {
+    "name": "David Chen",
+    "callsign": "W5DEF",
+    "job": "Secretary"
+  },
+  "boardMembers": [
+    {
+      "name": "Michael Brown",
+      "callsign": "KB7JKL",
+      "job": "Board Member - Technical Coordinator"
+    },
+    {
+      "name": "Sarah Johnson",
+      "callsign": "KE8MNO",
+      "job": "Board Member - Education Coordinator"
+    },
+    {
+      "name": "James Wilson",
+      "callsign": "N9PQR",
+      "job": "Board Member - Events Coordinator"
+    }
+  ]
+}

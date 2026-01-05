@@ -305,6 +305,15 @@ Subscribe to our calendar:
 
 Have an event to add to the calendar? Contact our Activities Coordinator at activities@example.com
 
+### Club Leadership
+
+For questions about events or club activities, feel free to contact any of our officers:
+
+- **{{ organizers.president.job }}**: {{ organizers.president.name }}, {{ organizers.president.callsign }}
+- **{{ organizers.vicePresident.job }}**: {{ organizers.vicePresident.name }}, {{ organizers.vicePresident.callsign }}
+- **{{ organizers.secretary.job }}**: {{ organizers.secretary.name }}, {{ organizers.secretary.callsign }}
+- **{{ organizers.treasurer.job }}**: {{ organizers.treasurer.name }}, {{ organizers.treasurer.callsign }}
+
 ---
 
 *Stay active and we'll see you at the next event!*

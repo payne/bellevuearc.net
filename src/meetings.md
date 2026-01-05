@@ -71,4 +71,4 @@ In addition to our monthly general meetings, we also hold:
 - **VE Test Sessions**: Second Saturday of each month (By appointment)
 - **Technical Workshops**: As scheduled (Check calendar)
 
-For questions about meetings, contact our Secretary at secretary@example.com
+For questions about meetings, contact our Secretary, {{ organizers.secretary.name }} ({{ organizers.secretary.callsign }}), at secretary@example.com

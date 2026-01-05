@@ -144,6 +144,13 @@ For ham-fests beyond our immediate area, check:
 
 Know of a ham-fest we should list? Contact our webmaster at webmaster@example.com
 
+### Club Officers
+
+Planning to attend an event with our club or have questions? Contact:
+
+**{{ organizers.president.name }}**, {{ organizers.president.callsign }} - {{ organizers.president.job }}
+**{{ organizers.vicePresident.name }}**, {{ organizers.vicePresident.callsign }} - {{ organizers.vicePresident.job }}
+
 ---
 
 *See you at the next ham-fest!*

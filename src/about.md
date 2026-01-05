@@ -29,20 +29,20 @@ To advance the amateur radio service by:
 
 ### Club Officers
 
-**President**: Robert Anderson, N3ABC
-*Leading the club and overseeing all activities*
+**{{ organizers.president.job }}**: {{ organizers.president.name }}, {{ organizers.president.callsign }}
 
-**Vice President**: Maria Garcia, KD4XYZ
-*Programs and presentations coordinator*
+**{{ organizers.vicePresident.job }}**: {{ organizers.vicePresident.name }}, {{ organizers.vicePresident.callsign }}
 
-**Secretary**: David Chen, W5DEF
-*Records and communications*
+**{{ organizers.secretary.job }}**: {{ organizers.secretary.name }}, {{ organizers.secretary.callsign }}
 
-**Treasurer**: Linda Thompson, K6GHI
-*Financial management and membership*
+**{{ organizers.treasurer.job }}**: {{ organizers.treasurer.name }}, {{ organizers.treasurer.callsign }}
 
-**Technical Coordinator**: Michael Brown, KB7JKL
-*Repeater and station maintenance*
+### Board Members
+
+{% for member in organizers.boardMembers %}
+**{{ member.name }}**, {{ member.callsign }}
+*{{ member.job }}*
+{% endfor %}
 
 ### Membership Benefits
 

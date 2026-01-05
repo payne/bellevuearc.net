@@ -27,6 +27,13 @@ Whether you're a seasoned operator or just curious about amateur radio, we welco
 - Browse [Area Repeaters](/repeaters/) for frequency information
 - View our [Calendar](/calendar/) for all upcoming events
 
+### Club Leadership
+
+**President**: {{ organizers.president.name }}, {{ organizers.president.callsign }}
+**Vice President**: {{ organizers.vicePresident.name }}, {{ organizers.vicePresident.callsign }}
+
+For more information about joining or our complete leadership team, visit our [About Us](/about/) page.
+
 ### Contact Us
 
 For more information about joining or participating in club activities, please attend one of our monthly meetings or contact us through our website.
