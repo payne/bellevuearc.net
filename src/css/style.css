@@ -764,6 +764,47 @@ body {
   white-space: nowrap;
 }
 
+.repeaters-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  padding-right: 25px;
+  transition: background-color 0.2s ease;
+}
+
+.repeaters-table th.sortable:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.repeaters-table th.sortable .sort-arrow {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.3;
+  font-size: 12px;
+}
+
+.repeaters-table th.sortable .sort-arrow::before {
+  content: "⇅";
+}
+
+.repeaters-table th.sortable.sort-asc .sort-arrow {
+  opacity: 1;
+}
+
+.repeaters-table th.sortable.sort-asc .sort-arrow::before {
+  content: "↑";
+}
+
+.repeaters-table th.sortable.sort-desc .sort-arrow {
+  opacity: 1;
+}
+
+.repeaters-table th.sortable.sort-desc .sort-arrow::before {
+  content: "↓";
+}
+
 .repeaters-table td {
   padding: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
