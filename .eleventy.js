@@ -5,6 +5,9 @@ module.exports = function(eleventyConfig) {
   // Copy JavaScript to output
   eleventyConfig.addPassthroughCopy("src/js");
 
+  // Copy data files to output
+  eleventyConfig.addPassthroughCopy("src/_data");
+
   return {
     dir: {
       input: "src",
