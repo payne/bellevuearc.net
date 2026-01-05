@@ -538,3 +538,149 @@ body {
     font-size: 13px;
   }
 }
+
+/* Nets Styles */
+.nets-error {
+  background-color: #fee;
+  border: 1px solid #fcc;
+  color: #c33;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+[data-theme="dark"] .nets-error {
+  background-color: #4a2020;
+  border-color: #6a3030;
+  color: #ff9999;
+}
+
+.nets-schedule {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 20px 0;
+}
+
+.day-section {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--bg-color);
+  transition: all 0.3s ease;
+}
+
+[data-theme="dark"] .day-section {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.day-section.current-day {
+  border-color: var(--secondary-color);
+  border-width: 2px;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.1);
+}
+
+.day-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.day-section.current-day .day-title {
+  color: var(--secondary-color);
+}
+
+.no-nets {
+  font-style: italic;
+  color: var(--text-color);
+  opacity: 0.6;
+  padding: 15px 0;
+}
+
+.nets-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.net-item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 15px;
+  padding: 15px;
+  background-color: var(--content-bg);
+  border-radius: 5px;
+  border-left: 3px solid var(--secondary-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.net-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.net-time {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+}
+
+.net-details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.net-frequency {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.net-type {
+  font-size: 14px;
+  color: var(--text-color);
+  opacity: 0.8;
+  font-style: italic;
+}
+
+.net-org {
+  font-size: 15px;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+.net-callsign {
+  font-size: 14px;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+/* Responsive Nets Layout */
+@media (max-width: 768px) {
+  .net-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .net-time {
+    font-size: 14px;
+  }
+
+  .net-frequency {
+    font-size: 16px;
+  }
+
+  .day-section {
+    padding: 15px;
+  }
+
+  .day-title {
+    font-size: 20px;
+  }
+}
