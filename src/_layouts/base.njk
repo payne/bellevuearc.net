@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }} - AARC</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Hamburger Button -->
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <h2>AARC Menu</h2>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/meetings/">Meetings</a></li>
+        <li><a href="/about/">About Us</a></li>
+        <li><a href="/hamfests/">Area Ham-Fests</a></li>
+        <li><a href="/nets/">Area NETs</a></li>
+        <li><a href="/repeaters/">Area Repeaters</a></li>
+        <li><a href="/calendar/">Calendar</a></li>
+      </ul>
+    </nav>
+
+    <!-- Overlay for mobile -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header class="page-header">
+        <h1>{{ title }}</h1>
+      </header>
+      <div class="content">
+        {{ content | safe }}
+      </div>
+      <footer class="page-footer">
+        <p>&copy; 2026 Amateur Radio Club. All rights reserved.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="/js/menu.js"></script>
+</body>
+</html>

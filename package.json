@@ -1,0 +1,15 @@
+{
+  "name": "aarc-website",
+  "version": "1.0.0",
+  "description": "Amateur Radio Club static website built with 11ty",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": ["11ty", "eleventy", "static-site"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
