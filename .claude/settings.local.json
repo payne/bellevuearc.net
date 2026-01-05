@@ -4,7 +4,9 @@
       "Bash(npm install)",
       "Bash(npm run build:*)",
       "Bash(mkdir:*)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:docs.google.com)",
+      "WebFetch(domain:doc-08-ao-sheets.googleusercontent.com)"
     ]
   }
 }
