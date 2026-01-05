@@ -34,4 +34,37 @@ document.addEventListener('DOMContentLoaded', function() {
       closeMenu();
     }
   });
+
+  // Theme Toggle Functionality
+  const themeToggle = document.getElementById('theme-toggle');
+  const themeIcon = document.getElementById('theme-icon');
+  const html = document.documentElement;
+
+  // Check for saved theme preference or default to 'light'
+  const currentTheme = localStorage.getItem('theme') || 'light';
+
+  // Apply saved theme on page load
+  html.setAttribute('data-theme', currentTheme);
+  updateThemeIcon(currentTheme);
+
+  function updateThemeIcon(theme) {
+    if (theme === 'dark') {
+      themeIcon.textContent = '☀️';
+    } else {
+      themeIcon.textContent = '🌙';
+    }
+  }
+
+  function toggleTheme() {
+    const currentTheme = html.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    // Update the theme
+    html.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+    updateThemeIcon(newTheme);
+  }
+
+  // Toggle theme when button is clicked
+  themeToggle.addEventListener('click', toggleTheme);
 });

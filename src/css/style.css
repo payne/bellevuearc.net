@@ -10,8 +10,22 @@
   --secondary-color: #3498db;
   --text-color: #333;
   --bg-color: #f5f5f5;
+  --content-bg: #ffffff;
+  --watermark-color: rgba(0, 0, 0, 0.05);
+  --footer-color: #666;
   --sidebar-width: 280px;
   --header-height: 60px;
+}
+
+/* Dark mode variables */
+[data-theme="dark"] {
+  --primary-color: #34495e;
+  --secondary-color: #3498db;
+  --text-color: #e0e0e0;
+  --bg-color: #1a1a1a;
+  --content-bg: #2d2d2d;
+  --watermark-color: rgba(255, 255, 255, 0.03);
+  --footer-color: #999;
 }
 
 body {
@@ -32,7 +46,7 @@ body::before {
   transform: translate(-50%, -50%) rotate(-45deg);
   font-size: 150px;
   font-weight: 900;
-  color: rgba(0, 0, 0, 0.05);
+  color: var(--watermark-color);
   z-index: 1;
   pointer-events: none;
   user-select: none;
@@ -183,7 +197,7 @@ body::before {
 }
 
 .content {
-  background-color: white;
+  background-color: var(--content-bg);
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -223,7 +237,7 @@ body::before {
 .page-footer {
   text-align: center;
   padding: 20px;
-  color: #666;
+  color: var(--footer-color);
   font-size: 16px;
 }
 
@@ -266,4 +280,47 @@ body::before {
   .content p, .content li {
     font-size: 20px;
   }
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 1000;
+  width: 45px;
+  height: 45px;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 20px;
+}
+
+.theme-toggle:hover {
+  background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+.theme-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Smooth transition for theme changes */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content,
+.hamburger,
+.sidebar,
+.page-header h1,
+.content h2,
+.content h3,
+.page-footer {
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
