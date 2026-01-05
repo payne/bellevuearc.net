@@ -39,4 +39,15 @@
 - CSS custom properties for easy theming
 - Accessibility features: ARIA labels, keyboard support (ESC key closes menu)
 
+### DRAFT Watermark Addition
+- Added semi-transparent "DRAFT" watermark to all pages
+- Implementation: CSS ::before pseudo-element on body
+- Watermark features:
+  - Large text (150px), rotated -45 degrees
+  - Semi-transparent (5% opacity black)
+  - Fixed position, centered on viewport
+  - Non-interactive (pointer-events: none)
+  - Always visible behind content (z-index layering)
+- Site successfully rebuilt with watermark
+
 ---
