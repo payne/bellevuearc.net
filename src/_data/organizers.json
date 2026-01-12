@@ -1,39 +1,34 @@
 {
   "president": {
-    "name": "Robert Anderson",
-    "callsign": "N3ABC",
+    "name": "Sean Edwards",
+    "callsign": "AD0QG",
     "job": "President"
   },
   "vicePresident": {
-    "name": "Maria Garcia",
-    "callsign": "KD4XYZ",
+    "name": "Jim Glover",
+    "callsign": "KX0U",
     "job": "Vice President"
   },
   "treasurer": {
-    "name": "Linda Thompson",
-    "callsign": "K6GHI",
+    "name": "Adam Kavan",
+    "callsign": "KD0MMG",
     "job": "Treasurer"
   },
   "secretary": {
-    "name": "David Chen",
-    "callsign": "W5DEF",
+    "name": "Matt Payne",
+    "callsign": "N3PAY",
     "job": "Secretary"
   },
   "boardMembers": [
     {
-      "name": "Michael Brown",
-      "callsign": "KB7JKL",
-      "job": "Board Member - Technical Coordinator"
+      "name": "Dan Buchholz",
+      "callsign": "N0POT",
+      "job": "Board Member"
     },
     {
-      "name": "Sarah Johnson",
-      "callsign": "KE8MNO",
-      "job": "Board Member - Education Coordinator"
-    },
-    {
-      "name": "James Wilson",
-      "callsign": "N9PQR",
-      "job": "Board Member - Events Coordinator"
+      "name": "Russ Roseinquist",
+      "callsign": "NE0G",
+      "job": "Board Member"
     }
   ]
 }
