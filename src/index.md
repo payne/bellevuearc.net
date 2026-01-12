@@ -26,7 +26,7 @@ Whether you're a seasoned operator or just curious about amateur radio, we welco
 ### Quick Links
 
 - Check out our [Meetings](/meetings/) page for upcoming meeting schedules
-- Learn more [About Us](/about/) and our club history
+- Learn more [About Us](/about/) about this fan site
 - Find local [Ham-Fests](/hamfests/) and events
 - Discover [Area NETs](/nets/) you can join
 - Browse [Area Repeaters](/repeaters/) for frequency information
