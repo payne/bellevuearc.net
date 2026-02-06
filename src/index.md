@@ -5,9 +5,7 @@ title: Welcome
 
 ## Welcome to the Aksarben Amateur Radio Club (AARC) fan site
 
-This site is a suplement to [Ak-Sar-Ben Amateur Radio Club](https://www.aksarbenarc.org/home) official website.
-
-### What We Do
+This site is a supplement to [Ak-Sar-Ben Amateur Radio Club](https://www.aksarbenarc.org/home) official website.
 
 - **Monthly Meetings**: 
   * Meetings are open to the public and are held on the second Friday of most months at the [American Red Cross, 2912 S 80th Ave Omaha, NE](https://maps.app.goo.gl/Xe3JpAe12gfF9BQp8). Park and enter on the west side of the building.   
