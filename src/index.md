@@ -5,8 +5,6 @@ title: Welcome
 
 ## Welcome to the Aksarben Amateur Radio Club (AARC) fan site
 
-Welcome to our community of radio enthusiasts! We are dedicated to promoting amateur radio operations, education, and fellowship among operators of all skill levels.
-
 This site is a suplement to [Ak-Sar-Ben Amateur Radio Club](https://www.aksarbenarc.org/home) official website.
 
 ### What We Do
