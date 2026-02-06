@@ -8,7 +8,7 @@ permalink: /repeaters/
 
 ## Area Amateur Radio Repeaters
 
-A comprehensive list of amateur radio repeaters in our area. All frequencies are in MHz unless otherwise noted.
+A list of amateur radio repeaters in our area. All frequencies are in MHz unless otherwise noted.
 
 <div id="repeaters-container">
   <p class="loading">Loading repeaters data...</p>
@@ -57,25 +57,9 @@ Popular simplex channels in the area:
 Regional frequency coordinator: www.coordinator.example
 
 **Online Repeater Directories**:
-- RepeaterBook: www.repeaterbook.com
-- ARTSCIPub: www.artscipub.com
-- RFinder: www.rfinder.net
-
-**Mobile Apps**:
-- RepeaterBook (iOS/Android)
-- RFinder (iOS/Android)
-- EchoLink (iOS/Android)
-
-### Report Problems
-
-If you experience issues with any club repeater:
-- Email: repeater@example.com
-- Phone: Club hotline (555) 123-4567
-- Contact Technical Coordinator at meetings
-
-### Donations
-
-Club repeaters are maintained through member dues and donations. To support our repeater system, contact our Treasurer or donate at meetings.
+- RepeaterBook: [www.repeaterbook.com](www.repeaterbook.com)
+- ARTSCIPub: [www.artscipub.com](www.artscipub.com)
+- RFinder: [www.rfinder.net](www.rfinder.net)
 
 ---
 
