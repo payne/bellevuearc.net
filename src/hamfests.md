@@ -55,70 +55,6 @@ Ham-fests are gatherings where amateur radio operators buy, sell, and trade equi
 
 ---
 
-#### Summer QRP Gathering
-**Date**: July 12, 2026
-**Time**: 9:00 AM - 4:00 PM
-**Location**: Riverside Park Pavilion
-**Admission**: Free
-**Features**:
-- Focus on low-power and portable operations
-- Build-a-thon (Bring your projects!)
-- Field demonstrations
-- Kit building workshops
-- Outdoor operating
-**Contact**: qrpgather@example.com
-
----
-
-#### State Convention
-**Date**: September 18-20, 2026
-**Time**: All weekend
-**Location**: Grand Hotel & Conference Center
-**Admission**: $40 (Full weekend), $15 (Daily)
-**Features**:
-- State's largest ham-fest
-- Forums and technical sessions
-- Manufacturers row
-- Contest awards banquet
-- License exam sessions
-- Swap meet
-- Special event station
-**Contact**: stateconv@example.com
-**Website**: www.statehamconvention.example
-**Hotel**: Special rate $89/night (Code: HAM2026)
-
----
-
-#### Fall Swap Meet
-**Date**: October 10, 2026
-**Time**: 8:00 AM - 1:00 PM
-**Location**: Community College Parking Lot
-**Admission**: $2
-**Features**:
-- Tailgate-style swap meet
-- Casual atmosphere
-- Parking lot full of deals
-- Food truck on-site
-**Contact**: fallswap@example.com
-
----
-
-#### Holiday Ham-Fest
-**Date**: December 6, 2026
-**Time**: 9:00 AM - 3:00 PM
-**Location**: Civic Center
-**Admission**: $5 (Includes raffle ticket)
-**Features**:
-- Indoor heated venue
-- Holiday gift ideas
-- VE testing
-- Kids activities
-- Santa photos
-- Food court
-**Contact**: holidayham@example.com
-
----
-
 ### Planning to Attend?
 
 **Tips for Ham-Fest Success**:
@@ -137,8 +73,8 @@ Most ham-fests offer table rentals for sellers. Contact the individual event org
 ### Out-of-Area Events
 
 For ham-fests beyond our immediate area, check:
-- **ARRL Ham-fest Database**: www.arrl.org/hamfests
-- **QRZ Events Calendar**: www.qrz.com/hamfests
+- **ARRL Ham-fest Database**: [www.arrl.org/hamfests](www.arrl.org/hamfests)
+- **QRZ Events Calendar**: [www.qrz.com/hamfests](www.qrz.com/hamfests)
 
 ### Submit an Event
 

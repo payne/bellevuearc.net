@@ -28,18 +28,23 @@ This site is a suplement to [Ak-Sar-Ben Amateur Radio Club](https://www.aksarben
 
 ### Club Board
 
-* **President**: {{ organizers.president.name }}, {{ organizers.president.callsign }}
-* **Vice President**: {{ organizers.vicePresident.name }}, {{ organizers.vicePresident.callsign }}
-* **Treasurer**: {{ organizers.treasurer.name }}, {{ organizers.treasurer.callsign }}
-* **Secretary**: {{ organizers.secretary.name }}, {{ organizers.secretary.callsign }}
-* **Board Member**: {{ organizers.boardMembers[0].name }}, {{ organizers.boardMembers[0].callsign }}
-* **Board Member**: {{ organizers.boardMembers[1].name }}, {{ organizers.boardMembers[1].callsign }}
+**{{ organizers.president.job }}**: {{ organizers.president.name }}, {{ organizers.president.callsign }}
+
+**{{ organizers.vicePresident.job }}**: {{ organizers.vicePresident.name }}, {{ organizers.vicePresident.callsign }}
+
+**{{ organizers.secretary.job }}**: {{ organizers.secretary.name }}, {{ organizers.secretary.callsign }}
+
+**{{ organizers.treasurer.job }}**: {{ organizers.treasurer.name }}, {{ organizers.treasurer.callsign }}
+
+### Board Members
+
+{% for member in organizers.boardMembers %}
+**{{ member.name }}**, {{ member.callsign }}
+*{{ member.job }}*
+{% endfor %}
 
 
-
-### Join us!  Send in your form...
-
-[Membership form](https://www.aksarbenarc.org/home/phocadownload/Membership/2026MembershipForm.pdf)
+### Join us!  Send in your [membership form](https://www.aksarbenarc.org/home/phocadownload/Membership/2026MembershipForm.pdf)
 
 ---
 

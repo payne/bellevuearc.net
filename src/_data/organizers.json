@@ -17,7 +17,8 @@
   "secretary": {
     "name": "Matt Payne",
     "callsign": "N3PAY",
-    "job": "Secretary"
+    "job": "Secretary",
+    "email": "matt.n3pay@gmail.com"
   },
   "boardMembers": [
     {
