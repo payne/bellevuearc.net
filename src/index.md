@@ -3,7 +3,7 @@ layout: base.njk
 title: Welcome
 ---
 
-## Welcome to the AARC Amateur Radio Club fan site
+## Welcome to the Aksarben Amateur Radio Club (AARC) fan site
 
 Welcome to our community of radio enthusiasts! We are dedicated to promoting amateur radio operations, education, and fellowship among operators of all skill levels.
 
