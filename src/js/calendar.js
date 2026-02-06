@@ -129,8 +129,8 @@ function renderMonthlyCalendar(events) {
 
   let html = '';
 
-  // Generate calendars for the next 3 months
-  for (let i = 0; i < 3; i++) {
+  // Generate calendars for the next 2 months
+  for (let i = 0; i < 2; i++) {
     const month = (currentMonth + i) % 12;
     const year = currentYear + Math.floor((currentMonth + i) / 12);
     html += generateCalendarMonth(events, year, month);
