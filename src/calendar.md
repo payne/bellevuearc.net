@@ -14,6 +14,8 @@ permalink: /calendar/
 [Salvation Army Emergency Disaster Services Building is at 
 10629 Burt Circle in Omaha](https://maps.app.goo.gl/rfZNdUj5XjJnj9pd7).   There are two Salvation Army buildings.   The Emergency Disaster Services (EDS) building is the second one on the right after you turn east off of 108th Street.   It is the one story building with the  antennas on the roof. 
 
+[What to bring is described in a club wiki page](https://aksarbenarc.groups.io/g/main/wiki/41229/232975) and [here is a public facing copy made on 2026 Feb 06.](/bring)
+
 
 <script src="/js/calendar.js"></script>
 
