@@ -8,7 +8,7 @@ permalink: /repeaters/
 
 ## Area Amateur Radio Repeaters
 
-A list of amateur radio repeaters in our area. All frequencies are in MHz unless otherwise noted.
+A list of some amateur radio repeaters in our area. All frequencies are in MHz unless otherwise noted.
 
 <div id="repeaters-container">
   <p class="loading">Loading repeaters data...</p>
