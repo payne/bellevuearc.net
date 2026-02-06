@@ -4,9 +4,7 @@ title: Meetings
 permalink: /meetings/
 ---
 
-
 ### Upcoming Meetings
-
 
 #### February 2026
 **Topic**: Heremes Lite as a primary transceiver 
@@ -24,8 +22,8 @@ All meetings are open to the public. Whether you're a licensed operator, studyin
 ### Special Meetings
 
 In addition to our monthly general meetings, we also hold:
-- **Board Meetings**: Third Tuesday of each month (Members welcome)
-- **VE Test Sessions**: Second Saturday of each month (By appointment)
+- **Board Meetings**: Last Tuesday of each month (everyone welcome)
+- **VE Test Sessions**: See the [calendar](/calendar)
 - **Technical Workshops**: Might be monthly (Check calendar)
 
 For questions about meetings, contact our Secretary, {{ organizers.secretary.name }} ({{ organizers.secretary.callsign }}), at {{ organizers.secretary.email }}
@@ -34,6 +32,6 @@ For questions about meetings, contact our Secretary, {{ organizers.secretary.nam
 
 
 #### January 2026
-**Topic**: Introduction to Digital Modes
-**Presenter**: John Smith, K1ABC
-Learn about FT8, PSK31, and other digital communication modes
+**Topic**: The future
+**Presenter**: Matt N3PAY
+
