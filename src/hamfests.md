@@ -13,8 +13,7 @@ Ham-fests are gatherings where amateur radio operators buy, sell, and trade equi
 #### AARC Flea-Esta - Dan N0POT –  the ham fest is Saturday 2026 September 12th
 
 
-#### [BARC](http://www.bellevuearc.org/) Ham-Fest
-**Date**: Saturday April 11, 2026
+#### [BARC](http://www.bellevuearc.org/) Ham-Fest is Saturday April 11, 2026
 
 ### Planning to Attend?
 
