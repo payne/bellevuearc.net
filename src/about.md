@@ -22,4 +22,16 @@ permalink: /about/
 *{{ member.job }}*
 {% endfor %}
 
+### Club Committees
 
+| Committee | Members |
+|-----------|---------|
+{% for c in committees.clubCommittees %}| {{ c.name }} | {% if c.note %}*{{ c.note }}*{% endif %}{% for m in c.members %}{% if forloop.first == false %}, {% endif %}{{ m.name }} [{{ m.callsign }}](https://qrz.com/db/{{ m.callsign | downcase }}){% endfor %} |
+{% endfor %}
+
+### Repeater Committee
+
+| Role | Name | Call Sign |
+|------|------|-----------|
+{% for m in committees.repeaterCommittee %}| {{ m.role }} | {{ m.name }} | [{{ m.callsign }}](https://qrz.com/db/{{ m.callsign | downcase }}) |
+{% endfor %}

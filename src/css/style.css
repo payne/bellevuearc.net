@@ -231,6 +231,30 @@ body {
   font-size: 18px;
 }
 
+/* Content Tables */
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+.content table th,
+.content table td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+[data-theme="dark"] .content table th,
+[data-theme="dark"] .content table td {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.content table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+}
+
 /* Footer */
 .page-footer {
   text-align: center;

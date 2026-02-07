@@ -62,3 +62,12 @@ Note: The special characters (Ø) in the source call signs were normalized to `0
 
 ---
 
+## Claude [2026-02-06 20:08:32]
+
+Builds cleanly. Two tables were added to the bottom of the about page:
+
+- **Club Committees** — 12 rows with committee name and members. Call signs link to QRZ.com. Public Relations shows *OPEN*. No email addresses included.
+- **Repeater Committee** — 4 rows with role, name, and linked call sign. No email addresses included.
+
+---
+
