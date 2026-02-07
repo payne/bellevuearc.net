@@ -4,6 +4,8 @@ title: Calendar
 permalink: /calendar/
 ---
 
+{% include "next_meeting.njk" %}
+
 ## Upcoming in Person Ham Exams
 
 * 2/14/2026 1pm at Salvation Army Emergency Disaster Services Building

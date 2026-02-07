@@ -1,0 +1,11 @@
+<div class="next-meeting">
+  <h3>Next Meeting: {{ next_meeting.date }}</h3>
+  <p>
+    <strong>Doors open:</strong> {{ next_meeting.doors }} |
+    <strong>Meeting starts:</strong> {{ next_meeting.time }}<br>
+    <strong>Location:</strong> {{ next_meeting.location }}
+  </p>
+  {% if next_meeting.topic != "" %}
+  <p><strong>Topic:</strong> {{ next_meeting.topic }}{% if next_meeting.presenter != "" %} — <strong>Presenter:</strong> {{ next_meeting.presenter }}{% endif %}</p>
+  {% endif %}
+</div>
