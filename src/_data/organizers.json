@@ -1,35 +1,22 @@
 {
   "president": {
-    "name": "Sean Edwards",
-    "callsign": "AD0QG",
+    "name": "Mark",
+    "callsign": "N0WQK",
     "job": "President"
   },
   "vicePresident": {
-    "name": "Jim Glover",
-    "callsign": "KX0U",
+    "name": "Dudley",
+    "callsign": "KD0NMD",
     "job": "Vice President"
   },
   "treasurer": {
-    "name": "Adam Kavan",
-    "callsign": "KD0MMG",
+    "name": "Dennis",
+    "callsign": "KC0YKN",
     "job": "Treasurer"
   },
   "secretary": {
-    "name": "Matt Payne",
-    "callsign": "N3PAY",
-    "job": "Secretary",
-    "email": "matt.n3pay@gmail.com"
-  },
-  "boardMembers": [
-    {
-      "name": "Dan Buchholz",
-      "callsign": "N0POT",
-      "job": "Board Member"
-    },
-    {
-      "name": "Russ Roseinquist",
-      "callsign": "NE0G",
-      "job": "Board Member"
-    }
-  ]
+    "name": "Brad",
+    "callsign": "W0TVS",
+    "job": "Secretary"
+  }
 }
