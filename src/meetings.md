@@ -7,8 +7,8 @@ permalink: /meetings/
 ### Upcoming Meetings
 
 #### February 2026
-**Topic**: Heremes Lite as a primary transceiver 
-**Presenter**: Mark W5TSU
+**Topic**: 
+**Presenter**: 
 
 #### March 2026
 **Topic**: TBD
@@ -32,6 +32,6 @@ For questions about meetings, contact our Secretary, {{ organizers.secretary.nam
 
 
 #### January 2026
-**Topic**: The future
-**Presenter**: Matt N3PAY
+**Topic**: 
+**Presenter**: 
 
