@@ -14,6 +14,8 @@ A list of some amateur radio repeaters in our area. All frequencies are in MHz u
   <p class="loading">Loading repeaters data...</p>
 </div>
 
+Know of a repeater we should list?  Contact {{ organizers.siteOwner.job }} {{ organizers.siteOwner.name }} ([{{ organizers.siteOwner.callsign }}](https://qrz.com/db/{{ organizers.siteOwner.callsign | downcase }})), at {{ organizers.siteOwner.email }}
+
 ---
 
 **Online Repeater Directories**:

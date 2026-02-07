@@ -15,23 +15,3 @@ permalink: /about/
 
 **{{ organizers.treasurer.job }}**: {{ organizers.treasurer.name }}, [{{ organizers.treasurer.callsign }}](https://qrz.com/db/{{ organizers.treasurer.callsign | downcase }})
 
-### Board Members
-
-{% for member in organizers.boardMembers %}
-**{{ member.name }}**, [{{ member.callsign }}](https://qrz.com/db/{{ member.callsign | downcase }})
-*{{ member.job }}*
-{% endfor %}
-
-### Club Committees
-
-| Committee | Members |
-|-----------|---------|
-{% for c in committees.clubCommittees %}| {{ c.name }} | {% if c.note %}*{{ c.note }}*{% endif %}{% for m in c.members %}{% if forloop.first == false %}, {% endif %}{{ m.name }} [{{ m.callsign }}](https://qrz.com/db/{{ m.callsign | downcase }}){% endfor %} |
-{% endfor %}
-
-### Repeater Committee
-
-| Role | Name | Call Sign |
-|------|------|-----------|
-{% for m in committees.repeaterCommittee %}| {{ m.role }} | {{ m.name }} | [{{ m.callsign }}](https://qrz.com/db/{{ m.callsign | downcase }}) |
-{% endfor %}

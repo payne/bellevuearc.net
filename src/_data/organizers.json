@@ -18,5 +18,11 @@
     "name": "Brad",
     "callsign": "W0TVS",
     "job": "Secretary"
+  },
+  "siteOwner": {
+    "name": "Matt",
+    "callsign": "N3PAY",
+    "email": "matt.n3pay@gmail.com",
+    "job": "Website's Owner"
   }
 }
