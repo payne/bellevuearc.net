@@ -8,12 +8,9 @@ title: Welcome
 This site is a supplement to [Bellevue Amateur Radio Club](https://www.BellevueARC.org/home) official website.
 
 - **Monthly Meetings**: 
-  * Meetings are open to the public and are held on the third Thursday of most months at the [American Red Cross, 2912 S 80th Ave Omaha, NE](https://maps.app.goo.gl/Xe3JpAe12gfF9BQp8). Park and enter on the west side of the building.   
-    * Meetings start at 7 pm.  
-    * Technical presentation and disussion starts at 7:30 pm.
-  * Board meetings are open to the public.  
-    * 6 pm on the last Tuesday of each month 
-    * 76th & Cass St. Hy-Vee in the Cafe 
+  * Meetings are open to the public and are held on the third Thursday of most months at the the Masonic Lodge dining Hall (1910 Franklin St., Bellevue, NE).
+    * Doors open at 7 pm.  
+    * Meetings start at at 7:30 pm.  
 
 ### Quick Links
 
@@ -42,7 +39,7 @@ This site is a supplement to [Bellevue Amateur Radio Club](https://www.BellevueA
 {% endfor %}
 
 
-### Join us!  Send in your [membership form]()
+### Join us!  Send in your [membership form](http://bellevuearc.org/docs/barc_membership.pdf)
 
 ---
 
