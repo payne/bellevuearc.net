@@ -51,3 +51,14 @@ Fixed. The `.md` files use Liquid (not Nunjucks), so the filter is `downcase`, n
 
 ---
 
+## Claude [2026-02-06 20:04:07]
+
+Created `src/_data/committees.json` with two sections:
+
+- **clubCommittees** (12 entries) — each with name, members (name + callsign), and email. Public Relations is marked with `"note": "OPEN"` since the position is unfilled.
+- **repeaterCommittee** (4 entries) — each with role, name, callsign, and email.
+
+Note: The special characters (Ø) in the source call signs were normalized to `0` (zero) in the JSON, which is the standard ASCII representation used by QRZ.com and other databases.
+
+---
+

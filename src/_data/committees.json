@@ -1,0 +1,111 @@
+{
+  "clubCommittees": [
+    {
+      "name": "Courtesy Committee",
+      "members": [
+        { "name": "Bill Snyder", "callsign": "KD0FJR" }
+      ],
+      "email": "courtesy@aksarbenarc.org"
+    },
+    {
+      "name": "Education",
+      "members": [
+        { "name": "Mike Gallagher", "callsign": "W0LE" }
+      ],
+      "email": "education@aksarbenarc.org"
+    },
+    {
+      "name": "Field Day",
+      "members": [],
+      "email": "fieldday@aksarbenarc.org"
+    },
+    {
+      "name": "Flea-Esta",
+      "members": [
+        { "name": "Dan Buchholz", "callsign": "N0POT" }
+      ],
+      "email": "n0potdan@gmail.com"
+    },
+    {
+      "name": "Membership",
+      "members": [
+        { "name": "Mary Joseph", "callsign": "N0TRK" }
+      ],
+      "email": "membership@aksarbenarc.org"
+    },
+    {
+      "name": "Monday Night .94 Net",
+      "members": [
+        { "name": "Norm", "callsign": "WA0JYD" },
+        { "name": "Bill", "callsign": "KD0FJR" }
+      ]
+    },
+    {
+      "name": "Public Relations",
+      "members": [],
+      "email": "pr@aksarbenarc.org",
+      "note": "OPEN"
+    },
+    {
+      "name": "Prizes",
+      "members": [
+        { "name": "Pat Joseph", "callsign": "K0CTU" }
+      ],
+      "email": "prizes@aksarbenarc.org"
+    },
+    {
+      "name": "Publications (Ham Hum)",
+      "members": [
+        { "name": "Brian Pitchanau", "callsign": "WE0BEP" }
+      ],
+      "email": "hamhum@aksarbenarc.org"
+    },
+    {
+      "name": "QSL Manager & Technical",
+      "members": [
+        { "name": "Ed Edwards", "callsign": "K0IL" }
+      ],
+      "email": "qsl@aksarbenarc.org"
+    },
+    {
+      "name": "Special Events Coordinator",
+      "members": [
+        { "name": "Pat Joseph", "callsign": "K0CTU" }
+      ],
+      "email": "service@aksarbenarc.org"
+    },
+    {
+      "name": "Web Services",
+      "members": [
+        { "name": "Mary Joseph", "callsign": "N0TRK" }
+      ],
+      "email": "web@aksarbenarc.org"
+    }
+  ],
+  "repeaterCommittee": [
+    {
+      "role": "Chairman",
+      "name": "John Gebuhr",
+      "callsign": "WB0CMC",
+      "email": "repeater@aksarbenarc.org"
+    },
+    {
+      "role": "Vice Chairman",
+      "name": "Steve Schmitz",
+      "callsign": "N0UP",
+      "email": "repeater@aksarbenarc.org"
+    },
+    {
+      "role": "Control Operator",
+      "name": "Mary Joseph",
+      "callsign": "N0TRK",
+      "email": "repeater@aksarbenarc.org"
+    },
+    {
+      "role": "Club Call Sign Trustee",
+      "name": "Corby Krick",
+      "callsign": "K0SKW",
+      "email": "trustee@aksarbenarc.org"
+    }
+  ]
+}
