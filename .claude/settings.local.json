@@ -6,7 +6,9 @@
       "Bash(mkdir:*)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "WebFetch(domain:docs.google.com)",
-      "WebFetch(domain:doc-08-ao-sheets.googleusercontent.com)"
+      "WebFetch(domain:doc-08-ao-sheets.googleusercontent.com)",
+      "Bash(npm start)",
+      "Bash(npx eleventy:*)"
     ]
   }
 }

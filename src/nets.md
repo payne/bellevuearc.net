@@ -19,7 +19,7 @@ NETs (network operations) are organized on-air gatherings where amateur radio op
 ---
 ### Submit an Event
 
-Know of a NET we should list?  Contact our Secretary, {{ organizers.secretary.name }} ({{ organizers.secretary.callsign }}), at {{ organizers.secretary.email }}
+Know of a NET we should list?  Contact our Secretary, {{ organizers.secretary.name }} ([{{ organizers.secretary.callsign }}](https://qrz.com/db/{{ organizers.secretary.callsign | downcase }})), at {{ organizers.secretary.email }}
 
 ---
 

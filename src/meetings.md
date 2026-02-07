@@ -26,7 +26,7 @@ In addition to our monthly general meetings, we also hold:
 - **VE Test Sessions**: See the [calendar](/calendar)
 - **Technical Workshops**: Might be monthly (Check calendar)
 
-For questions about meetings, contact our Secretary, {{ organizers.secretary.name }} ({{ organizers.secretary.callsign }}), at {{ organizers.secretary.email }}
+For questions about meetings, contact our Secretary, {{ organizers.secretary.name }} ([{{ organizers.secretary.callsign }}](https://qrz.com/db/{{ organizers.secretary.callsign | downcase }})), at {{ organizers.secretary.email }}
 
 ### Past Meetings
 

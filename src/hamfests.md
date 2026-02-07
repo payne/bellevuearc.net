@@ -38,7 +38,7 @@ For ham-fests beyond our immediate area, check:
 
 ### Submit an Event
 
-Know of a ham-fest we should list?  Contact our Secretary, {{ organizers.secretary.name }} ({{ organizers.secretary.callsign }}), at {{ organizers.secretary.email }}
+Know of a ham-fest we should list?  Contact our Secretary, {{ organizers.secretary.name }} ([{{ organizers.secretary.callsign }}](https://qrz.com/db/{{ organizers.secretary.callsign | downcase }})), at {{ organizers.secretary.email }}
 
 
 

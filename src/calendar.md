@@ -43,10 +43,10 @@ Stay up-to-date with all club activities, contests, and area events. Mark your c
 
 For questions about events or club activities, feel free to contact any of our officers:
 
-- **{{ organizers.president.job }}**: {{ organizers.president.name }}, {{ organizers.president.callsign }}
-- **{{ organizers.vicePresident.job }}**: {{ organizers.vicePresident.name }}, {{ organizers.vicePresident.callsign }}
-- **{{ organizers.secretary.job }}**: {{ organizers.secretary.name }}, {{ organizers.secretary.callsign }}
-- **{{ organizers.treasurer.job }}**: {{ organizers.treasurer.name }}, {{ organizers.treasurer.callsign }}
+- **{{ organizers.president.job }}**: {{ organizers.president.name }}, [{{ organizers.president.callsign }}](https://qrz.com/db/{{ organizers.president.callsign | downcase }})
+- **{{ organizers.vicePresident.job }}**: {{ organizers.vicePresident.name }}, [{{ organizers.vicePresident.callsign }}](https://qrz.com/db/{{ organizers.vicePresident.callsign | downcase }})
+- **{{ organizers.secretary.job }}**: {{ organizers.secretary.name }}, [{{ organizers.secretary.callsign }}](https://qrz.com/db/{{ organizers.secretary.callsign | downcase }})
+- **{{ organizers.treasurer.job }}**: {{ organizers.treasurer.name }}, [{{ organizers.treasurer.callsign }}](https://qrz.com/db/{{ organizers.treasurer.callsign | downcase }})
 
 ---
 
