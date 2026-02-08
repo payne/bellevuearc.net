@@ -1,0 +1,25 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BARC Blog</title>
+    <link>https://bellevuearc.net/blog/</link>
+    <description>Blog posts from the Bellevue Amateur Radio Club</description>
+    <atom:link href="https://bellevuearc.net/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>en-us</language>
+    {%- for post in collections.post | reverse %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>https://bellevuearc.net{{ post.url }}</link>
+      <guid>https://bellevuearc.net{{ post.url }}</guid>
+      <pubDate>{{ post.date | rssDate }}</pubDate>
+      {%- if post.data.author %}
+      <author>{{ post.data.author }}</author>
+      {%- endif %}
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>

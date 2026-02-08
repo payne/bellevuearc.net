@@ -77,3 +77,133 @@ Session ID: `8dad8992...`
 
 ---
 
+# Session Ended [2026-02-07 10:54:29]
+
+---
+
+# Session Started [2026-02-08 10:46:06]
+
+Session ID: `61d05f2d...`
+
+---
+
+# Session Ended [2026-02-08 10:46:23]
+
+---
+
+# Session Started [2026-02-08 10:46:34]
+
+Session ID: `b0785835...`
+
+---
+
+## User [2026-02-08 10:47:00]
+
+/init — Please analyze this codebase and create a CLAUDE.md file.
+
+---
+
+## Claude [2026-02-08 10:49:00]
+
+Created `CLAUDE.md` at project root with project overview, build commands, architecture (Eleventy config, data-driven JSON files, templates, client-side JS, styling), how to add pages, and key conventions (BARC naming, meeting info updates, API key note).
+
+---
+
+## User [2026-02-08 10:50:00]
+
+commit this
+
+---
+
+## Claude [2026-02-08 10:50:10]
+
+Prepared commit for `CLAUDE.md` — user interrupted to add a new requirement first.
+
+---
+
+## User [2026-02-08 10:50:30]
+
+For this project always record my prompts and claude responses in a markdown file.
+
+---
+
+## Claude [2026-02-08 10:51:00]
+
+Added "Interaction Logging" section to `CLAUDE.md` instructing future Claude Code instances to append user prompts and response summaries to `CLAUDE_INTERACTIONS.md`. Logged all interactions from this session.
+
+---
+
+## User [2026-02-08 10:52:00]
+
+Add a blog
+
+---
+
+## Claude [2026-02-08 10:55:00]
+
+Added a blog feature to the site:
+- Created `src/_layouts/blog-post.njk` — blog post layout with date/author metadata and "Back to Blog" link
+- Created `src/blog/index.md` — blog listing page at `/blog/` showing all posts in reverse chronological order
+- Created `src/blog/2026-02-08-welcome.md` — sample welcome post using `tags: post` for Eleventy collection
+- Added `readableDate` filter to `.eleventy.js` for Nunjucks date formatting
+- Added "Blog" nav link to `src/_layouts/base.njk`
+- Added blog CSS styles (`.blog-list`, `.blog-post-item`, `.post-meta`, `.post-date`, `.post-author`, `.back-to-blog`) to `src/css/style.css`
+- Build succeeds with all 10 pages written
+
+---
+
+## Claude [2026-02-08 10:54:34]
+
+The blog is ready. Here's what was added:
+
+- **`src/blog/index.md`** — listing page at `/blog/` showing all posts newest-first
+- **`src/blog/2026-02-08-welcome.md`** — sample welcome post (uses `tags: post` for the Eleventy collection)
+- **`src/_layouts/blog-post.njk`** — post layout with date, author, and "Back to Blog" link
+- **`src/_layouts/base.njk`** — added "Blog" to the sidebar nav
+- **`.eleventy.js`** — added a `readableDate` filter for date formatting
+- **`src/css/style.css`** — blog styles matching the existing event-item pattern (left border accent, hover effects, dark mode support)
+
+To add new posts, create a `.md` file in `src/blog/` with this frontmatter:
+
+```yaml
+---
+layout: blog-post.njk
+title: Your Post Title
+date: 2026-02-08
+author: Author Name
+tags: post
+---
+```
+
+---
+
+## User [2026-02-08 10:56:00]
+
+Blog should have an RSS feed
+
+---
+
+## Claude [2026-02-08 10:58:00]
+
+Added RSS feed at `/feed.xml`:
+- Created `src/feed.njk` — Nunjucks template that generates RSS 2.0 XML from the `post` collection (with Atom self-link)
+- Added `rssDate` filter to `.eleventy.js` for RFC-822 date formatting
+- Added `<link rel="alternate" type="application/rss+xml">` to `<head>` in both `base.njk` and `blog-post.njk`
+- Build succeeds with 11 files written
+
+---
+
+## Claude [2026-02-08 10:58:35]
+
+Done. Added an RSS feed at `/feed.xml`:
+
+- **`src/feed.njk`** — generates RSS 2.0 XML from the blog post collection
+- **`.eleventy.js`** — added `rssDate` filter for RFC-822 dates
+- **Both layouts** — added `<link rel="alternate">` in `<head>` so RSS readers auto-discover the feed
+
+---
+
+# Session Ended [2026-02-08 10:59:46]
+
+---
+

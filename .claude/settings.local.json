@@ -8,7 +8,12 @@
       "WebFetch(domain:docs.google.com)",
       "WebFetch(domain:doc-08-ao-sheets.googleusercontent.com)",
       "Bash(npm start)",
-      "Bash(npx eleventy:*)"
+      "Bash(npx eleventy:*)",
+      "Bash(wc:*)",
+      "Bash(git -C /home/mpayne/git/bellevuearc.net log --oneline -20)",
+      "Bash(git -C /home/mpayne/git/bellevuearc.net remote -v)",
+      "Bash(node:*)",
+      "Bash(npm:*)"
     ]
   }
 }
