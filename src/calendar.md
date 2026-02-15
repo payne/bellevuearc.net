@@ -8,7 +8,6 @@ permalink: /calendar/
 
 ## Upcoming in Person Ham Exams
 
-* 2/14/2026 1pm at Salvation Army Emergency Disaster Services Building
 * 5/9/2026  1pm  at Salvation Army Emergency Disaster Services Building
 * 8/8/2026  1pm at Salvation Army Emergency Disaster Services Building
 * 11/14/2026  at Salvation Army Emergency Disaster Services Building
