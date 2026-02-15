@@ -1,11 +1,9 @@
 ---
 layout: base.njk
-title: Welcome
+title: Bellevue Amateur Radio Club (BARC) fan site
 ---
 
 {% include "next_meeting.njk" %}
-
-## Welcome to the Bellevue Amateur Radio Club (BARC) fan site
 
 This site is a supplement to [Bellevue Amateur Radio Club](https://www.BellevueARC.org/home) official website.
 
