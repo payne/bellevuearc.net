@@ -227,3 +227,13 @@ Fixed two issues preventing the PDF flyer from loading:
 
 ---
 
+## Claude [2026-02-16 16:39:06]
+
+Committed as `74e4abf`. Note that the PDF file itself (`2026_BARC_hamfest.pdf`) is still untracked — it looks like it wasn't included in the previous commit either. Would you like me to add and commit the PDF as well?
+
+---
+
+# Session Ended [2026-02-16 16:39:19]
+
+---
+
