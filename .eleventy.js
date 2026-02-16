@@ -22,6 +22,9 @@ module.exports = function(eleventyConfig) {
   // Copy data files to output
   eleventyConfig.addPassthroughCopy("src/_data");
 
+  // Copy blog assets (PDFs, images, etc.) to output
+  eleventyConfig.addPassthroughCopy("src/blog/**/*.pdf");
+
   return {
     dir: {
       input: "src",

@@ -207,3 +207,23 @@ Done. Added an RSS feed at `/feed.xml`:
 
 ---
 
+# Session Started [2026-02-16 16:36:39]
+
+Session ID: `dc59b098...`
+
+---
+
+## User [2026-02-16 16:37:00]
+
+The PDF flyer in http://localhost:8080/blog/2026-BARC-hamfest/2026-02-16-hamfest/ does not appear when I click on the link
+
+---
+
+## Claude [2026-02-16 16:38:00]
+
+Fixed two issues preventing the PDF flyer from loading:
+1. **Added passthrough copy rule** — `.eleventy.js` wasn't copying PDFs from the blog directory to `_site/`. Added `addPassthroughCopy("src/blog/**/*.pdf")`.
+2. **Fixed relative link path** — The blog post's link pointed to `2026_BARC_hamfest.pdf` but needed `../2026_BARC_hamfest.pdf` because Eleventy outputs the post into a subdirectory (`2026-02-16-hamfest/index.html`), placing the PDF one level up.
+
+---
+
