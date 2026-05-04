@@ -237,3 +237,23 @@ Committed as `74e4abf`. Note that the PDF file itself (`2026_BARC_hamfest.pdf`) 
 
 ---
 
+# Session Started [2026-05-04]
+
+---
+
+## User [2026-05-04]
+
+Automatically redirect to BellevueARC.org
+
+---
+
+## Claude [2026-05-04]
+
+Modified `src/_layouts/base.njk` to automatically redirect all visitors to https://bellevuearc.org using:
+1. Meta refresh tag (`<meta http-equiv="refresh" content="0;url=https://bellevuearc.org">`)
+2. JavaScript fallback (`window.location.replace()`)
+
+Removed CSS and RSS links from `<head>` since they're no longer needed for a redirect page.
+
+---
+
