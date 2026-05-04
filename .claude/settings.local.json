@@ -13,7 +13,10 @@
       "Bash(git -C /home/mpayne/git/bellevuearc.net log --oneline -20)",
       "Bash(git -C /home/mpayne/git/bellevuearc.net remote -v)",
       "Bash(node:*)",
-      "Bash(npm:*)"
+      "Bash(npm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nRedirect all pages to BellevueARC.org\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
     ]
   }
 }
